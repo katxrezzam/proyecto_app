@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.upn.proyecto_final.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuFood"
+        android:name="com.upn.proyecto_final.FoodMenuFragment"
+        android:label="Platos"
+        tools:layout="@layout/fragment_food_menu" />
+    <fragment
+        android:id="@+id/menuOrders"
+        android:name="com.upn.proyecto_final.OrdersFragment"
+        android:label="Ordenes"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/menuShoppingCart"
+        android:name="com.upn.proyecto_final.ShoppingCartFragment"
+        android:label="Carrito de compras"
+        tools:layout="@layout/fragment_shopping_cart" />
+    <fragment
+        android:id="@+id/menuMain"
+        android:name="com.upn.proyecto_final.StartMenuFragment"
+        android:label="fragment_start_menu"
+        tools:layout="@layout/fragment_start_menu" />
+    <fragment
+        android:id="@+id/rate_us"
+        android:name="com.upn.proyecto_final.RateUsFragment"
+        android:label="fragment_rate_us"
+        tools:layout="@layout/fragment_rate_us" />
+</navigation>
